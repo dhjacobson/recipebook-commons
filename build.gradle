@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+}
+
+group 'com.dhjacobson.recipebook'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
+
+    // jersey client for interacting with recipebook-api
+    compile (group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.25') {
+        exclude group: 'javax.inject'
+    }
+    compile (group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.25') {
+        exclude group: 'javax.inject'
+        exclude module: 'hk2-api'
+    }
+
+    // jackson for serialization annotations
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.6'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.6'
+
+
+    // java api for volume and weight quantities
+//    implementation group: 'tec.uom', name: 'uom-se', version: '1.0.9'
+//    implementation group: 'systems.uom', name: 'systems-common', version: '0.9'
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.scala-lang:scala-library:2.9.1'
+    }
+}
