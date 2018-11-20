@@ -1,7 +1,7 @@
-package com.example.recipebook_commons.models;
+package com.dhjacobson.recipebook_commons.models;
 
-import com.example.recipebook_commons.enums.QuantityUnit;
-import com.example.recipebook_commons.utils.RecipeUtils;
+import com.dhjacobson.recipebook_commons.enums.QuantityUnit;
+import com.dhjacobson.recipebook_commons.utils.RecipeUtils;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class IngredientQuantity {

@@ -1,4 +1,4 @@
-package com.example.recipebook_commons.utils;
+package com.dhjacobson.recipebook_commons.utils;
 
 import java.time.Duration;
 import java.util.ArrayList;

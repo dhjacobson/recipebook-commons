@@ -1,4 +1,4 @@
-package com.example.recipebook_commons.enums;
+package com.dhjacobson.recipebook_commons.enums;
 
 public enum QuantityUnit {
 

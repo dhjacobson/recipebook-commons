@@ -1,13 +1,12 @@
-package com.example.recipebook_commons.utils;
+package com.dhjacobson.recipebook_commons.utils;
 
-import com.example.recipebook_commons.enums.IngredientTypeCategory;
-import com.example.recipebook_commons.enums.QuantityUnit;
-import com.example.recipebook_commons.models.IngredientQuantity;
-import com.example.recipebook_commons.models.IngredientType;
-import com.example.recipebook_commons.models.Recipe;
-import com.example.recipebook_commons.models.RecipeIngredient;
+import com.dhjacobson.recipebook_commons.models.IngredientQuantity;
+import com.dhjacobson.recipebook_commons.enums.IngredientTypeCategory;
+import com.dhjacobson.recipebook_commons.enums.QuantityUnit;
+import com.dhjacobson.recipebook_commons.models.IngredientType;
+import com.dhjacobson.recipebook_commons.models.Recipe;
+import com.dhjacobson.recipebook_commons.models.RecipeIngredient;
 
-import java.time.Duration;
 import java.util.ArrayList;
 
 public class SampleDataUtils {

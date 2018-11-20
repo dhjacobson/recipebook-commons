@@ -1,6 +1,6 @@
 package dal;
 
-import com.example.recipebook_commons.api.RecipebookApiError;
+import com.dhjacobson.recipebook_commons.api.RecipebookApiError;
 import org.junit.Test;
 
 import javax.ws.rs.client.Client;

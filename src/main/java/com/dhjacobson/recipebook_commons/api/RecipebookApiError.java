@@ -1,4 +1,4 @@
-package com.example.recipebook_commons.api;
+package com.dhjacobson.recipebook_commons.api;
 
 import javax.ws.rs.client.WebTarget;
 

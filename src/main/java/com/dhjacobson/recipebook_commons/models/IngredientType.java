@@ -1,7 +1,6 @@
-package com.example.recipebook_commons.models;
+package com.dhjacobson.recipebook_commons.models;
 
-import com.example.recipebook_commons.enums.IngredientTypeCategory;
-import com.example.recipebook_commons.enums.IngredientTypeCategory;
+import com.dhjacobson.recipebook_commons.enums.IngredientTypeCategory;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class IngredientType {

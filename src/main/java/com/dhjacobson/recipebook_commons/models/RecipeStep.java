@@ -1,4 +1,4 @@
-package com.example.recipebook_commons.models;
+package com.dhjacobson.recipebook_commons.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

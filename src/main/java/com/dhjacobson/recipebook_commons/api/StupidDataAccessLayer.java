@@ -1,11 +1,10 @@
-package com.example.recipebook_commons.api;
+package com.dhjacobson.recipebook_commons.api;
 
-import com.example.recipebook_commons.models.Recipe;
+import com.dhjacobson.recipebook_commons.models.Recipe;
 
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.List;
 
 public class StupidDataAccessLayer {
 
